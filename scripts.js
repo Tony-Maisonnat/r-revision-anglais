@@ -26,6 +26,8 @@ const vocabularyLists = {
 		{ word: "to worth", translation: " valoir ; to worth a lot of money" },
 		{ word: "a enquiry", translation: " une enquète ; made an enquiry about = faire une demande de renseignements" },
 		{ word: "the belongings", translation: "les effets personnel (affaire)" },
+		{ word: "the warehouse", translation: "un entrepôt (de stockage)" },
+		{ word: "awful", translation: "horrible / terrible / affreux the food was awful" },
 		
 		
 	],
@@ -37,6 +39,7 @@ const vocabularyLists = {
 		{ word: "some thing (overshadowing) some thing", translation: " faire de l'ombre à " },
 		{ word: "(emphasis) some thing", translation: " mettre en valeur ;  put emphasis to that point" },
 		{ word: "at the phone (to hold)", translation: "attendre ou patienter au téléphone que qqn revient" },
+		{ word: "an upward", translation: "à la hausse / vers le haut  price are moving upward" },
 	],
     reviewCard: [
         { word: "After/before + Ving", translation: "Après/avant + infinitif" },

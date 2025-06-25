@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TOEIC Hard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>TOEIC Hard</h1>
+    <h3 id="slogan">The website that makes TOEIC simple</h3>
+
+    <div id="known-words-counter" class="hidden">Known words: 0</div>
+
+    <div class="list-selector">
+      <label id="liste" for="vocabulary-list">Liste :</label>
+      <select id="vocabulary-list">
+        <option value="toeicWords1">TOEIC Words 1</option>
+                <option value="toeicWords2">TOEIC Words 2</option>
+                <option value="reviewCard">Review Card</option>
+                <option value="falseFriends1">False Friends 1</option>
+                <option value="falseFriends2">False Friends 2</option>
+                <option value="falseFriends3">False Friends 3</option>
+                <option value="falseFriends4">False Friends 4</option>
+				<option value="Tony1_phrasal_verbe">Tony1_phrasal_verbe</option>
+				<option value="Tony1_word">Tony1_word</option>
+				<option value="Tony1_expression">Tony1_expression</option>
+      </select>
+      <button id="start-btn">Start</button>
+      <button id="view-list-btn" class="hidden">View List</button>
+      <button id="back-to-index-btn" class="hidden">Retour</button>
+    </div>
+
+    <div id="flashcard-container" class="hidden">
+      <div id="flashcard">
+        <div class="card-content" id="card-content"></div>
+      </div>
+      <div class="buttons">
+        <button id="know-btn">Know</button>
+        <button id="dont-know-btn">Don't Know</button>
+      </div>
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+    </div>
+
+    <div id="vocabulary-list-container" class="hidden">
+      <ul id="vocabulary-list-display"></ul>
+    </div>
+
+    <div id="progress-grid" class="hidden"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -484,17 +484,46 @@ const vocabularyLists = {
 let currentIndex = 0;
 let knownWords = [];
 let unknownWords = [];
+let unknownWords_inverse = null;
 let showTranslation = false;
 let totalWords = 0;
 let wordStatus = {};
 let wordStartTime;
 let progressInterval;
+let isInversed = false;
 
 document.getElementById('start-btn').addEventListener('click', () => {
   const selectedList = document.getElementById('vocabulary-list').value;
   resetFlashcards();
   shuffleFlashcards(selectedList);
+  isInversed = false;
   startFlashcards(selectedList);
+});
+
+document.getElementById('inverse-logic').addEventListener('click', () => {
+  if (!unknownWords || unknownWords.length === 0) return;
+  
+  isInversed = !isInversed;
+
+  if (isInversed) {
+    unknownWords_inverse = unknownWords.map(item => ({
+      word: item.translation,
+      translation: item.word
+    }));
+    unknownWords = unknownWords_inverse;
+  } else {
+    // Revert to original unknownWords from vocabularyLists or keep a copy somewhere else if needed
+    // Ici on suppose qu'on restaure unknownWords à l'original ou on le recharge :
+    // Pour simplifier, on inverse encore unknownWords_inverse
+    unknownWords = unknownWords_inverse.map(item => ({
+      word: item.translation,
+      translation: item.word
+    }));
+  }
+
+  currentIndex = 0;
+  createProgressGrid();
+  updateFlashcard();
 });
 
 document.getElementById('back-to-index-btn').addEventListener('click', () => {
@@ -505,7 +534,8 @@ document.getElementById('back-to-index-btn').addEventListener('click', () => {
 document.getElementById('flashcard').addEventListener('click', () => {
   const cardContent = document.getElementById('card-content');
   if (showTranslation) {
-    cardContent.innerHTML = `<strong>${unknownWords[currentIndex].word}</strong>`;
+    const currentWordObj = unknownWords[currentIndex];
+    cardContent.innerHTML = `<strong>${currentWordObj.word}</strong>`;
   } else {
     cardContent.textContent = cardContent.getAttribute('data-translation');
   }
@@ -525,18 +555,19 @@ function startFlashcards(list) {
   updateFlashcard();
   document.getElementById('flashcard-container').classList.remove('hidden');
   document.getElementById('known-words-counter').classList.remove('hidden');
+  document.getElementById('inverse-logic').classList.remove('hidden');
   updateKnownWordsCounter();
 }
 
 function updateFlashcard() {
   clearInterval(progressInterval);
-  const currentWord = unknownWords[currentIndex];
+  const currentWordObj = unknownWords[currentIndex];
   const cardContent = document.getElementById('card-content');
-  cardContent.innerHTML = `<strong>${currentWord.word}</strong>`;
-  cardContent.setAttribute('data-translation', currentWord.translation);
+  cardContent.innerHTML = `<strong>${currentWordObj.word}</strong>`;
+  cardContent.setAttribute('data-translation', currentWordObj.translation);
   showTranslation = false;
   wordStartTime = Date.now();
-  startProgressBar(currentWord.word);
+  startProgressBar(currentWordObj.word);
 }
 
 function startProgressBar(word) {
@@ -550,25 +581,29 @@ function startProgressBar(word) {
     progressBar.style.width = `${percent}%`;
     if (elapsed >= duration && !wordStatus[word]) {
       wordStatus[word] = "orange";
+      updateGridBox(word);
     }
   }, 100);
 }
 
 document.getElementById('know-btn').addEventListener('click', () => {
   clearInterval(progressInterval);
-  const word = unknownWords[currentIndex].word;
+
+  let currentWordObj = unknownWords[currentIndex];
+  const word = currentWordObj.word;
   const elapsed = Date.now() - wordStartTime;
 
   if (elapsed >= 5000) {
     wordStatus[word] = "orange";
-    unknownWords.push(unknownWords[currentIndex]);
+    unknownWords.push(currentWordObj);
   } else {
     wordStatus[word] = "green";
-    knownWords.push(unknownWords[currentIndex]);
+    knownWords.push(currentWordObj);
   }
 
   updateGridBox(word);
   updateKnownWordsCounter();
+
   unknownWords.splice(currentIndex, 1);
   if (currentIndex >= unknownWords.length) currentIndex = 0;
 
@@ -583,7 +618,9 @@ document.getElementById('know-btn').addEventListener('click', () => {
 
 document.getElementById('dont-know-btn').addEventListener('click', () => {
   clearInterval(progressInterval);
-  const word = unknownWords[currentIndex].word;
+
+  let currentWordObj = unknownWords[currentIndex];
+  const word = currentWordObj.word;
   const elapsed = Date.now() - wordStartTime;
 
   if (elapsed >= 5000 && !wordStatus[word]) {
@@ -591,9 +628,11 @@ document.getElementById('dont-know-btn').addEventListener('click', () => {
   }
 
   updateGridBox(word);
-  unknownWords.push(unknownWords[currentIndex]);
+
+  unknownWords.push(currentWordObj);
   unknownWords.splice(currentIndex, 1);
   if (currentIndex >= unknownWords.length) currentIndex = 0;
+
   updateFlashcard();
 });
 
@@ -601,6 +640,8 @@ function resetFlashcards() {
   currentIndex = 0;
   knownWords = [];
   unknownWords = [];
+  unknownWords_inverse = null;
+  isInversed = false;
   showTranslation = false;
   totalWords = 0;
   wordStatus = {};
@@ -617,6 +658,7 @@ function resetFlashcards() {
   document.getElementById('progress-grid').innerHTML = '';
   document.getElementById('progress-grid').classList.add('hidden');
   document.getElementById('progress-bar').style.width = '0';
+  document.getElementById('inverse-logic').classList.add('hidden');
 }
 
 function showIndex() {
@@ -640,9 +682,10 @@ function createProgressGrid() {
   const grid = document.getElementById('progress-grid');
   grid.innerHTML = '';
   unknownWords.forEach((item) => {
+    const word = item.word; // mot affiché est toujours item.word dans unknownWords
     const box = document.createElement('div');
     box.className = 'grid-box';
-    box.id = `grid-box-${item.word}`;
+    box.id = `grid-box-${word}`;
     grid.appendChild(box);
   });
 }
@@ -651,6 +694,8 @@ function updateGridBox(word) {
   const box = document.getElementById(`grid-box-${word}`);
   if (box) {
     box.classList.remove('green', 'orange');
-    box.classList.add(wordStatus[word]);
+    if(wordStatus[word]) {
+      box.classList.add(wordStatus[word]);
+    }
   }
 }

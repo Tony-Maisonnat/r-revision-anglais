@@ -17,6 +17,8 @@ const vocabularyLists = {
 		{ word: "to follow up something", translation: "(faire un suivi de qqc) I'll follow up you next week" },
 		{ word: "to get in", translation: "(entré quelque part) please get in the car" },
 		{ word: "to tidy up", translation: "(ranger , mettre en ordre qqc) I need to tidy up my room" },
+		{ word: "to find out", translation: "(découvrir, en apprendre sûr...) I need to find out the truth" },
+		{ word: "to look up", translation: "(chercher information quelque par) to look up the word in the dictionary" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -31,6 +33,7 @@ const vocabularyLists = {
 		{ word: "the belongings", translation: "les effets personnel (affaire)" },
 		{ word: "the warehouse", translation: "un entrepôt (de stockage)" },
 		{ word: "awful", translation: "horrible / terrible / affreux the food was awful" },
+		{ word: "the journey", translation: "(le voyage) the journey took five hours" },
 		
 		
 	],

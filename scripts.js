@@ -14,6 +14,9 @@ const vocabularyLists = {
 		{ word: "to worder", translation: "se demander ; s'interroger ; I wonder what time is it ?" },
 		{ word: "to give away some thing", translation: "donner gratuitement ; révéler une information" },
 		{ word: "to cover up", translation: " cacher, dissimuler qqc" },
+		{ word: "to follow up something", translation: "(faire un suivi de qqc) I'll follow up you next week" },
+		{ word: "to get in", translation: "(entré quelque part) please get in the car" },
+		{ word: "to tidy up", translation: "(ranger , mettre en ordre qqc) I need to tidy up my room" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },

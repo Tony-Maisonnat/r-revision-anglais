@@ -20,6 +20,7 @@ const vocabularyLists = {
 		{ word: "to find out", translation: "(découvrir, en apprendre sûr...) I need to find out the truth" },
 		{ word: "to look up", translation: "(chercher information quelque par) to look up the word in the dictionary" },
 		{ word: "to turn down", translation: "(refuser ; rejeter) He turned down the offer" },
+		{ word: "to go/went down", translation: "décendre/diminuer/tomber" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -36,6 +37,7 @@ const vocabularyLists = {
 		{ word: "awful", translation: "horrible / terrible / affreux the food was awful" },
 		{ word: "the journey", translation: "(le voyage) the journey took five hours" },
 		{ word: "dozens", translation: "(des dizaines) there was dozens of people at the event" },
+		{ word: "a retailler", translation: "entreprise ou personne qui vend directement au consomateur" },
 		
 		
 	],
@@ -48,6 +50,7 @@ const vocabularyLists = {
 		{ word: "(emphasis) some thing", translation: " mettre en valeur ;  put emphasis to that point" },
 		{ word: "at the phone (to hold)", translation: "attendre ou patienter au téléphone que qqn revient" },
 		{ word: "an upward", translation: "à la hausse / vers le haut  price are moving upward" },
+		{ word: "to ... an annoucement ", translation: "to made an annoucement" },
 	],
     reviewCard: [
         { word: "After/before + Ving", translation: "Après/avant + infinitif" },

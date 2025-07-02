@@ -54,7 +54,7 @@ const vocabularyLists = {
 	],
 	
 	Tony1_regle_a_connaitre: [
-		{ word: "(in) rules", translation: "(à l'intérieur) in a room ; in a country \n\n(période de temps longue) in the morning ; in two hours ; in march ; in 2025 " },
+		{ word: "(in) rules", translation: "<span style='font-size: 12px;'>(à l'intérieur) in a room ; in a country <br><br>(période de temps longue) in the morning ; in two hours ; in march ; in 2025 </span>" },
 	],
 };
 

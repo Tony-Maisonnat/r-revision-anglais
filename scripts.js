@@ -54,7 +54,9 @@ const vocabularyLists = {
 	],
 	
 	Tony1_regle_a_connaitre: [
-		{ word: "(in) rules", translation: "<span style='font-size: 12px;'>(à l'intérieur) in a room ; in a country <br><br>(période de temps longue) in the morning ; in two hours ; in march ; in 2025 </span>" },
+		{ word: "(in) rules", translation: "(à l'intérieur) in a room ; in a country (période de temps longue) in the morning ; in two hours ; in march ; in 2025" },
+		{ word: "(on) rules", translation: "(contact de la surface) on the table ; on the floor (jour et date précise) on monday ; on July 4th ; on Christmas day" },
+		{ word: "(at) rules", translation: "(à un point prècit [lieu ou momment]) at the door ; at school ; at 8 o'clock ; at noon ; at midnight" },
 	],
 };
 

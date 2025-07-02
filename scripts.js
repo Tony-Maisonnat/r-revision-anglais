@@ -21,6 +21,8 @@ const vocabularyLists = {
 		{ word: "to look up", translation: "(chercher information quelque par) to look up the word in the dictionary" },
 		{ word: "to turn down", translation: "(refuser ; rejeter) He turned down the offer" },
 		{ word: "to go/went down", translation: "décendre/diminuer/tomber" },
+		{ word: "to hire", translation: "recruter ; embaucher" },
+		{ word: "to spend / spent", translation: "passer du temps ou dépenser de l'argent" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -38,6 +40,8 @@ const vocabularyLists = {
 		{ word: "the journey", translation: "(le voyage) the journey took five hours" },
 		{ word: "dozens", translation: "(des dizaines) there was dozens of people at the event" },
 		{ word: "a retailler", translation: "entreprise ou personne qui vend directement au consomateur" },
+		{ word: "arouse something", translation: "éveiller ; sucité ; stimuler qqc " },
+		
 		
 		
 	],
@@ -51,6 +55,7 @@ const vocabularyLists = {
 		{ word: "at the phone (to hold)", translation: "attendre ou patienter au téléphone que qqn revient" },
 		{ word: "an upward", translation: "à la hausse / vers le haut  price are moving upward" },
 		{ word: "to ... an annoucement ", translation: "to made an annoucement" },
+		{ word: "to get in touch", translation: "entrer en contacte" },
 	],
 	
 	Tony1_regle_a_connaitre: [

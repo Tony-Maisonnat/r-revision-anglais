@@ -52,6 +52,10 @@ const vocabularyLists = {
 		{ word: "an upward", translation: "à la hausse / vers le haut  price are moving upward" },
 		{ word: "to ... an annoucement ", translation: "to made an annoucement" },
 	],
+	
+	Tony1_regle_a_connaitre: [
+		{ word: "(in) rules", translation: "(à l'intérieur) in a room ; in a country \n\n(période de temps longue) in the morning ; in two hours ; in march ; in 2025 " },
+	],
 };
 
 let currentIndex = 0;

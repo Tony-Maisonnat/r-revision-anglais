@@ -41,6 +41,7 @@ const vocabularyLists = {
 		{ word: "dozens", translation: "(des dizaines) there was dozens of people at the event" },
 		{ word: "a retailler", translation: "entreprise ou personne qui vend directement au consomateur" },
 		{ word: "arouse something", translation: "éveiller ; sucité ; stimuler qqc " },
+		{ word: "anyone", translation: "n'importe qui" },
 		
 		
 		

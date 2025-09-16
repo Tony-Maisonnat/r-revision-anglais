@@ -23,6 +23,8 @@ const vocabularyLists = {
 		{ word: "to go/went down", translation: "décendre/diminuer/tomber" },
 		{ word: "to hire", translation: "recruter ; embaucher" },
 		{ word: "to spend / spent", translation: "passer du temps ou dépenser de l'argent" },
+		{ word: "standing on", translation: " se tenir à un endroit" },
+		{ word: "to deal with", translation: " gérer / s'occuper de qqc" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -42,6 +44,9 @@ const vocabularyLists = {
 		{ word: "a retailler", translation: "entreprise ou personne qui vend directement au consomateur" },
 		{ word: "arouse something", translation: "éveiller ; sucité ; stimuler qqc " },
 		{ word: "anyone", translation: "n'importe qui" },
+		{ word: "an entitlement", translation: " un droit / privilége" },
+		{ word: " qqc widespread", translation: " qqc de répandu / généralisé" },
+		{ word: "Whenever", translation: " n'importe quelle heure" },
 		
 		
 		
@@ -57,6 +62,7 @@ const vocabularyLists = {
 		{ word: "an upward", translation: "à la hausse / vers le haut  price are moving upward" },
 		{ word: "to ... an annoucement ", translation: "to made an annoucement" },
 		{ word: "to get in touch", translation: "entrer en contacte" },
+		{ word: "It's portable", translation: " c'est transportable" },
 	],
 	
 	Tony1_regle_a_connaitre: [

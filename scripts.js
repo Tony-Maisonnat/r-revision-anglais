@@ -165,7 +165,7 @@ function startProgressBar(word) {
   const progressBar = document.getElementById('progress-bar');
   progressBar.style.width = '0';
   let elapsed = 0;
-  const duration = 5000;
+  const duration = 8000;
   progressInterval = setInterval(() => {
     elapsed = Date.now() - wordStartTime;
     const percent = Math.min((elapsed / duration) * 100, 100);
@@ -184,7 +184,7 @@ document.getElementById('know-btn').addEventListener('click', () => {
   const word = currentWordObj.word;
   const elapsed = Date.now() - wordStartTime;
 
-  if (elapsed >= 5000) {
+  if (elapsed >= 8000) {
     wordStatus[word] = "orange";
     unknownWords.push(currentWordObj);
   } else {
@@ -214,7 +214,7 @@ document.getElementById('dont-know-btn').addEventListener('click', () => {
   const word = currentWordObj.word;
   const elapsed = Date.now() - wordStartTime;
 
-  if (elapsed >= 5000 && !wordStatus[word]) {
+  if (elapsed >= 8000 && !wordStatus[word]) {
     wordStatus[word] = "orange";
   }
 

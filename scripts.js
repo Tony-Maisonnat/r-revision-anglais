@@ -46,6 +46,7 @@ const vocabularyLists = {
 		{ word: "anyone", translation: "n'importe qui" },
 		{ word: "an entitlement", translation: " un droit / privilége" },
 		{ word: " qqc widespread", translation: " qqc de répandu / généralisé" },
+		{ word: "proof that", translation: "preuve que" },
 		
 		{ word: "a relief", translation: " un soulagement" },
 		
@@ -63,6 +64,7 @@ const vocabularyLists = {
 		{ word: "to ... an annoucement ", translation: "to made an annoucement" },
 		{ word: "to get in touch", translation: "entrer en contacte" },
 		{ word: "It's portable", translation: " c'est transportable" },
+		{ word: "in this instance", translation: " dans ce cas" },
 	],
 	
 	Tony1_regle_a_connaitre: [
@@ -75,6 +77,7 @@ const vocabularyLists = {
 		{ word: "Whenever", translation: " n'importe quelle heure" },
 		{ word: "the straightforward to ", translation: " la simplicité de" },
 		{ word: "However", translation: " cependant ; toute fois ; pourtant " },
+		{ word: "Whereas", translation: " tandis que " },
 		],
 };
 

@@ -46,8 +46,8 @@ const vocabularyLists = {
 		{ word: "anyone", translation: "n'importe qui" },
 		{ word: "an entitlement", translation: " un droit / privilége" },
 		{ word: " qqc widespread", translation: " qqc de répandu / généralisé" },
-		{ word: "Whenever", translation: " n'importe quelle heure" },
 		
+		{ word: "a relief", translation: " un soulagement" },
 		
 		
 	],
@@ -70,6 +70,10 @@ const vocabularyLists = {
 		{ word: "(on) rules", translation: "(contact de la surface) on the table ; on the floor (jour et date précise) on monday ; on July 4th ; on Christmas day" },
 		{ word: "(at) rules", translation: "(à un point prècit [lieu ou momment]) at the door ; at school ; at 8 o'clock ; at noon ; at midnight" },
 	],
+
+	Tony1_connecteur_logique: [
+		{ word: "Whenever", translation: " n'importe quelle heure" },
+		],
 };
 
 let currentIndex = 0;

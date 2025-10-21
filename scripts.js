@@ -73,6 +73,7 @@ const vocabularyLists = {
 
 	Tony1_connecteur_logique: [
 		{ word: "Whenever", translation: " n'importe quelle heure" },
+		{ word: "the straightforward to ", translation: " la simplicité de" },
 		],
 };
 

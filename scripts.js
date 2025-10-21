@@ -25,6 +25,7 @@ const vocabularyLists = {
 		{ word: "to spend / spent", translation: "passer du temps ou dépenser de l'argent" },
 		{ word: "standing on", translation: " se tenir à un endroit" },
 		{ word: "to deal with", translation: " gérer / s'occuper de qqc" },
+		{ word: "to thrive", translation: "prospérer" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -47,6 +48,7 @@ const vocabularyLists = {
 		{ word: "an entitlement", translation: " un droit / privilége" },
 		{ word: " qqc widespread", translation: " qqc de répandu / généralisé" },
 		{ word: "proof that", translation: "preuve que" },
+		{ word: "something thrilling", translation: "qqc d'exitant ou palpitant" },
 		
 		{ word: "a relief", translation: " un soulagement" },
 		

@@ -49,7 +49,7 @@ const vocabularyLists = {
 		{ word: " qqc widespread", translation: " qqc de répandu / généralisé" },
 		{ word: "proof that", translation: "preuve que" },
 		{ word: "something thrilling", translation: "qqc d'exitant ou palpitant" },
-		
+		{ word: "to be aware", translation: "être conciente / au courant" },
 		{ word: "a relief", translation: " un soulagement" },
 		
 		

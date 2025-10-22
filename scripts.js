@@ -80,6 +80,7 @@ const vocabularyLists = {
 		{ word: "the straightforward to ", translation: " la simplicité de" },
 		{ word: "However", translation: " cependant ; toute fois ; pourtant " },
 		{ word: "Whereas", translation: " tandis que " },
+		{ word: "it is therefor that", translation: " c'est par conséquence que ..." },
 		],
 };
 

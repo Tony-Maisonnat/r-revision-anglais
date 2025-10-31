@@ -1,3 +1,4 @@
+//{ word: "", translation: "" },
 const vocabularyLists = {
 	Tony1_phrasal_verbe: [
 		{ word: "look forward", translation: "Avoir hate ; Attendre avec  impatience" },
@@ -26,6 +27,10 @@ const vocabularyLists = {
 		{ word: "standing on", translation: " se tenir à un endroit" },
 		{ word: "to deal with", translation: " gérer / s'occuper de qqc" },
 		{ word: "to thrive", translation: "prospérer" },
+		{ word: "to bend to ", translation: "s'adapter à" },
+		{ word: "to hire ", translation: " embaucher qqn" },
+		{ word: "to devise ", translation: "concevoir / mettre en place " },
+		
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -51,6 +56,10 @@ const vocabularyLists = {
 		{ word: "something thrilling", translation: "qqc d'exitant ou palpitant" },
 		{ word: "to be aware", translation: "être conciente / au courant" },
 		{ word: "a relief", translation: " un soulagement" },
+		{ word: "it's a struggle", translation: "une difficulté" },
+		{ word: "retension", translation: "fidailisation" },
+		{ word: "prospective people", translation: "candidat potentiel" },
+		
 		
 		
 	],
@@ -67,6 +76,8 @@ const vocabularyLists = {
 		{ word: "to get in touch", translation: "entrer en contacte" },
 		{ word: "It's portable", translation: " c'est transportable" },
 		{ word: "in this instance", translation: " dans ce cas" },
+		{ word: "to might assume", translation: "pourrait supposer " },
+		{ word: "relevant know how", translation: "connaissance approprié" },
 	],
 	
 	Tony1_regle_a_connaitre: [

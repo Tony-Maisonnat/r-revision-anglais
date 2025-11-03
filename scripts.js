@@ -33,7 +33,7 @@ const vocabularyLists = {
 		{ word: "to rely on something", translation: "s'appuyer sûr ; dépend de qqc" },
 		{ word: "to come accross something", translation: "tomber sûr ; découvrir par hazard" },
 		{ word: "a business take off", translation: "le business décole / dévellope rapidement " },
-		
+		{ word: "to (fall ; fell ; fallen) out with someone", translation: "se disputer ; faché avec qqn" },
 		
 	],
 	Tony1_word: [

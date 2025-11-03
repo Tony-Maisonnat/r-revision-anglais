@@ -32,6 +32,8 @@ const vocabularyLists = {
 		{ word: "to devise ", translation: "concevoir / mettre en place " },
 		{ word: "to rely on something", translation: "s'appuyer sûr ; dépend de qqc" },
 		{ word: "to come accross something", translation: "tomber sûr ; découvrir par hazard" },
+		{ word: "a business take off", translation: "le business décole / dévellope rapidement " },
+		
 		
 	],
 	Tony1_word: [
@@ -63,6 +65,7 @@ const vocabularyLists = {
 		{ word: "prospective people", translation: "candidat potentiel" },
 		{ word: "while", translation: "bien que; alors que ; oppose deux idée" },
 		{ word: "in fact", translation: "en réalité ; en faite" },
+		{ word: "something widespread", translation: "qqc de répandut" },
 		
 		
 	],

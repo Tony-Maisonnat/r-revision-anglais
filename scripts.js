@@ -34,6 +34,7 @@ const vocabularyLists = {
 		{ word: "to come accross something", translation: "tomber sûr ; découvrir par hazard" },
 		{ word: "a business take off", translation: "le business décole / dévellope rapidement " },
 		{ word: "to (fall ; fell ; fallen) out with someone", translation: "se disputer ; faché avec qqn" },
+		{ word: "to let someone down", translation: "de décevoir qqn" },
 		
 	],
 	Tony1_word: [

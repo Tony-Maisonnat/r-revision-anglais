@@ -30,6 +30,8 @@ const vocabularyLists = {
 		{ word: "to bend to ", translation: "s'adapter à" },
 		{ word: "to hire ", translation: " embaucher qqn" },
 		{ word: "to devise ", translation: "concevoir / mettre en place " },
+		{ word: "to rely on something", translation: "s'appuyer sûr ; dépend de qqc" },
+		{ word: "to come accross something", translation: "tomber sûr ; découvrir par hazard" },
 		
 	],
 	Tony1_word: [
@@ -59,7 +61,8 @@ const vocabularyLists = {
 		{ word: "it's a struggle", translation: "une difficulté" },
 		{ word: "retension", translation: "fidailisation" },
 		{ word: "prospective people", translation: "candidat potentiel" },
-		
+		{ word: "while", translation: "bien que; alors que ; oppose deux idée" },
+		{ word: "in fact", translation: "en réalité ; en faite" },
 		
 		
 	],
@@ -78,6 +81,8 @@ const vocabularyLists = {
 		{ word: "in this instance", translation: " dans ce cas" },
 		{ word: "to might assume", translation: "pourrait supposer " },
 		{ word: "relevant know how", translation: "connaissance approprié" },
+		{ word: "that is rare itself", translation: "ce qui est rare en soi" },
+		{ word: "which varie according to the sex", translation: "qui varie selon le sex" },
 	],
 	
 	Tony1_regle_a_connaitre: [

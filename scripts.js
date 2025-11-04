@@ -67,7 +67,7 @@ const vocabularyLists = {
 		{ word: "while", translation: "bien que; alors que ; oppose deux idée" },
 		{ word: "in fact", translation: "en réalité ; en faite" },
 		{ word: "something widespread", translation: "qqc de répandut" },
-		
+		{ word: "to be willing", translation: "être prêt à ; ouvert à ; volontaire " },
 		
 	],
 	Tony1_expression: [

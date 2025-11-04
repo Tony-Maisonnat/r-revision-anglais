@@ -35,6 +35,7 @@ const vocabularyLists = {
 		{ word: "a business take off", translation: "le business décole / dévellope rapidement " },
 		{ word: "to (fall ; fell ; fallen) out with someone", translation: "se disputer ; faché avec qqn" },
 		{ word: "to let someone down", translation: "de décevoir qqn" },
+		{ word: "to draw something", translation: "tiré un conclusion ; tirer un carte ou dessiner qqc" },
 		
 	],
 	Tony1_word: [
@@ -87,6 +88,8 @@ const vocabularyLists = {
 		{ word: "relevant know how", translation: "connaissance approprié" },
 		{ word: "that is rare itself", translation: "ce qui est rare en soi" },
 		{ word: "which varie according to the sex", translation: "qui varie selon le sex" },
+		{ word: "to be likely to", translation: "avoir tendance à " },
+		{ word: "polar opposite view", translation: "opignon dimétralement ; totalement opposé" },
 	],
 	
 	Tony1_regle_a_connaitre: [

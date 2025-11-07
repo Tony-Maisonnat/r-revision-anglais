@@ -91,6 +91,7 @@ const vocabularyLists = {
 		{ word: "to be likely to", translation: "avoir tendance à " },
 		{ word: "polar opposite view", translation: "opignon dimétralement ; totalement opposé" },
 		{ word: "to be big enough for", translation: "être assez grand pour" },
+		{ word: "to order a double room", translation: "commander une chambre double" },
 	],
 	
 	Tony1_regle_a_connaitre: [

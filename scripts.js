@@ -90,6 +90,7 @@ const vocabularyLists = {
 		{ word: "which varie according to the sex", translation: "qui varie selon le sex" },
 		{ word: "to be likely to", translation: "avoir tendance à " },
 		{ word: "polar opposite view", translation: "opignon dimétralement ; totalement opposé" },
+		{ word: "to be big enough for", translation: "être assez grand pour" },
 	],
 	
 	Tony1_regle_a_connaitre: [

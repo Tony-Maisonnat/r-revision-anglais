@@ -69,7 +69,7 @@ const vocabularyLists = {
 		{ word: "in fact", translation: "en réalité ; en faite" },
 		{ word: "something widespread", translation: "qqc de répandut" },
 		{ word: "to be willing", translation: "être prêt à ; ouvert à ; volontaire " },
-		
+		{ word: "a lorry", translation: "un camion comme truck" },
 	],
 	Tony1_expression: [
 		{ word: "from (time) to (time)", translation: "de tel heure à tel heure" },

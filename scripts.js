@@ -92,6 +92,7 @@ const vocabularyLists = {
 		{ word: "polar opposite view", translation: "opignon dimétralement ; totalement opposé" },
 		{ word: "to be big enough for", translation: "être assez grand pour" },
 		{ word: "to order a double room", translation: "commander une chambre double" },
+		{ word: "to process the order straightaway", translation: "traiter la commande imédiatement" },
 	],
 	
 	Tony1_regle_a_connaitre: [
@@ -106,6 +107,7 @@ const vocabularyLists = {
 		{ word: "However", translation: " cependant ; toute fois ; pourtant " },
 		{ word: "Whereas", translation: " tandis que " },
 		{ word: "it is therefor that", translation: " c'est par conséquence que ..." },
+		{ word: "anyway", translation: "bref," },
 		],
 };
 

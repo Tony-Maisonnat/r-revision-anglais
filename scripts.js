@@ -36,7 +36,7 @@ const vocabularyLists = {
 		{ word: "to (fall ; fell ; fallen) out with someone", translation: "se disputer ; faché avec qqn" },
 		{ word: "to let someone down", translation: "de décevoir qqn" },
 		{ word: "to draw something", translation: "tiré un conclusion ; tirer un carte ou dessiner qqc" },
-		
+		{ word: "to borrow something", translation: "emprinter qqc" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },

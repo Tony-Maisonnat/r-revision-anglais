@@ -37,6 +37,7 @@ const vocabularyLists = {
 		{ word: "to let someone down", translation: "de décevoir qqn" },
 		{ word: "to draw something", translation: "tiré un conclusion ; tirer un carte ou dessiner qqc" },
 		{ word: "to borrow something", translation: "emprinter qqc" },
+		{ word: "to refurbish something", translation: "rénover qqc" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -70,6 +71,8 @@ const vocabularyLists = {
 		{ word: "something widespread", translation: "qqc de répandut" },
 		{ word: "to be willing", translation: "être prêt à ; ouvert à ; volontaire " },
 		{ word: "a lorry", translation: "un camion comme truck" },
+		{ word: "a drawback", translation: "un inconvénient" },
+		{ word: "something worthwhile", translation: "qqc d'utile" },
 	],
 	Tony1_expression: [
 		{ word: "from (time) to (time)", translation: "de tel heure à tel heure" },
@@ -93,6 +96,8 @@ const vocabularyLists = {
 		{ word: "to be big enough for", translation: "être assez grand pour" },
 		{ word: "to order a double room", translation: "commander une chambre double" },
 		{ word: "to process the order straightaway", translation: "traiter la commande imédiatement" },
+		{ word: "for a while", translation: "depuis un momment" },
+		{ word: "company that's achieving steady growth", translation: "entreprise qui est en train d'atteindre un croissance stable" },
 	],
 	
 	Tony1_regle_a_connaitre: [

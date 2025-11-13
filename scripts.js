@@ -38,6 +38,7 @@ const vocabularyLists = {
 		{ word: "to draw something", translation: "tiré un conclusion ; tirer un carte ou dessiner qqc" },
 		{ word: "to borrow something", translation: "emprinter qqc" },
 		{ word: "to refurbish something", translation: "rénover qqc" },
+		{ word: "to bring forward to", translation: "avancer un réunion à " },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -73,6 +74,7 @@ const vocabularyLists = {
 		{ word: "a lorry", translation: "un camion comme truck" },
 		{ word: "a drawback", translation: "un inconvénient" },
 		{ word: "something worthwhile", translation: "qqc d'utile" },
+		{ word: "the handout", translation: "le doccument distribué" },
 	],
 	Tony1_expression: [
 		{ word: "from (time) to (time)", translation: "de tel heure à tel heure" },
@@ -98,6 +100,8 @@ const vocabularyLists = {
 		{ word: "to process the order straightaway", translation: "traiter la commande imédiatement" },
 		{ word: "for a while", translation: "depuis un momment" },
 		{ word: "company that's achieving steady growth", translation: "entreprise qui est en train d'atteindre un croissance stable" },
+		{ word: "provided something", translation: "à condition de qqc" },
+		{ word: "apart from tuesday", translation: "à part le mardi" },
 	],
 	
 	Tony1_regle_a_connaitre: [
@@ -113,6 +117,7 @@ const vocabularyLists = {
 		{ word: "Whereas", translation: " tandis que " },
 		{ word: "it is therefor that", translation: " c'est par conséquence que ..." },
 		{ word: "anyway", translation: "bref," },
+		{ word: "meanwhile", translation: "entre temps / en attendant" },
 		],
 };
 

@@ -39,6 +39,10 @@ const vocabularyLists = {
 		{ word: "to borrow something", translation: "emprinter qqc" },
 		{ word: "to refurbish something", translation: "rénover qqc" },
 		{ word: "to bring forward to", translation: "avancer un réunion à " },
+		{ word: "to lend", translation: "prêter" },
+		{ word: "to deal with something", translation: "s'occuper de qqc" },
+		{ word: "to attend to a meeting", translation: "assister à un réunion" },
+		{ word: "to host something", translation: "organiser / acceuillir qqc" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -75,6 +79,9 @@ const vocabularyLists = {
 		{ word: "a drawback", translation: "un inconvénient" },
 		{ word: "something worthwhile", translation: "qqc d'utile" },
 		{ word: "the handout", translation: "le doccument distribué" },
+		{ word: "an entitlement", translation: "un droit " },
+		{ word: "something roughly alike something", translation: "approximativement les mêmes" },
+		{ word: "a direct train", translation: "aller simple en train " },
 	],
 	Tony1_expression: [
 		{ word: "from (time) to (time)", translation: "de tel heure à tel heure" },
@@ -102,12 +109,22 @@ const vocabularyLists = {
 		{ word: "company that's achieving steady growth", translation: "entreprise qui est en train d'atteindre un croissance stable" },
 		{ word: "provided something", translation: "à condition de qqc" },
 		{ word: "apart from tuesday", translation: "à part le mardi" },
+		{ word: "to lend a hand", translation: "donner un coup de main" },
+		{ word: "to move on to item 7", translation: "translation vers le sujet 7" },
+		{ word: "the rush hour", translation: "l'heure de pointe" },
+		{ word: "enclosed to a doccument", translation: "séparé du doccument" },
+		{ word: "overseas sale", translation: "vente à l'internationnale" },
+		{ word: "even though", translation: "bien que / même si" },
+		{ word: "to be likely to + verb", translation: "être susseptible de + verb" },
 	],
 	
 	Tony1_regle_a_connaitre: [
 		{ word: "(in) rules", translation: "(à l'intérieur) in a room ; in a country (période de temps longue) in the morning ; in two hours ; in march ; in 2025" },
 		{ word: "(on) rules", translation: "(contact de la surface) on the table ; on the floor (jour et date précise) on monday ; on July 4th ; on Christmas day" },
 		{ word: "(at) rules", translation: "(à un point prècit [lieu ou momment]) at the door ; at school ; at 8 o'clock ; at noon ; at midnight" },
+		{ word: "had + past participle", translation: "action passé et terminé" },
+		{ word: "to advise ; an advice", translation: "" },
+		{ word: "turnover (HR;company)", translation: "roulement des employés ; chiffre d'affaire" },
 	],
 
 	Tony1_connecteur_logique: [
@@ -118,6 +135,8 @@ const vocabularyLists = {
 		{ word: "it is therefor that", translation: " c'est par conséquence que ..." },
 		{ word: "anyway", translation: "bref," },
 		{ word: "meanwhile", translation: "entre temps / en attendant" },
+		{ word: "almost", translation: "presque" },
+		{ word: "nowaday", translation: "de nos jour / acctuellement" },
 		],
 };
 

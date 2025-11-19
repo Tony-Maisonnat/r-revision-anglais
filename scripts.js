@@ -45,6 +45,10 @@ const vocabularyLists = {
 		{ word: "to host something", translation: "organiser / acceuillir qqc" },
 		{ word: "to greet customers", translation: "acceuilir les clients" },
 		{ word: "to call off", translation: "annuler un meeting ; a flight" },
+		{ word: "to give in", translation: "capituler ; accepter qqc après résistance" },
+		{ word: "to pick out", translation: "choisir ; sélectionner qqc" },
+		{ word: "to take off", translation: "décoller carrière ; flight" },
+		{ word: "to fit in ", translation: "s'intégre dans une équipe" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -86,6 +90,7 @@ const vocabularyLists = {
 		{ word: "a direct train", translation: "aller simple en train " },
 		{ word: "instead of", translation: "à la place de qqc" },
 		{ word: "either / neither", translation: "l'un ou l'autre / aucun des 2" },
+		{ word: "a hazard", translation: "un danger ; un risque" },
 	],
 	Tony1_expression: [
 		{ word: "from (time) to (time)", translation: "de tel heure à tel heure" },
@@ -120,6 +125,9 @@ const vocabularyLists = {
 		{ word: "overseas sale", translation: "vente à l'internationnale" },
 		{ word: "even though", translation: "bien que / même si" },
 		{ word: "to be likely to + verb", translation: "être susseptible de + verb" },
+		{ word: "sale droped by", translation: "vente diminue de ..." },
+		{ word: "help yourself", translation: "servez vous" },
+		{ word: "It's A pity / shame", translation: "c'est domage" },
 	],
 	
 	Tony1_regle_a_connaitre: [
@@ -133,6 +141,7 @@ const vocabularyLists = {
 		{ word: "is being + past participle", translation: "future forme pasive ; sera en train d'être filmé" },
 		{ word: "must be completed |by| (...)", translation: "une date précise" },
 		{ word: "muste be completed |in| (...)", translation: "une période de temps" },
+		{ word: "be + ing", translation: "future déjà planifier ; ou présent continue" },
 	],
 
 	Tony1_connecteur_logique: [
@@ -145,6 +154,7 @@ const vocabularyLists = {
 		{ word: "meanwhile", translation: "entre temps / en attendant" },
 		{ word: "almost", translation: "presque" },
 		{ word: "nowaday", translation: "de nos jour / acctuellement" },
+		{ word: "otherwise", translation: "autrement" },
 		],
 };
 

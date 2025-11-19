@@ -43,6 +43,8 @@ const vocabularyLists = {
 		{ word: "to deal with something", translation: "s'occuper de qqc" },
 		{ word: "to attend to a meeting", translation: "assister à un réunion" },
 		{ word: "to host something", translation: "organiser / acceuillir qqc" },
+		{ word: "to greet customers", translation: "acceuilir les clients" },
+		{ word: "to call off", translation: "annuler un meeting ; a flight" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -82,6 +84,8 @@ const vocabularyLists = {
 		{ word: "an entitlement", translation: "un droit " },
 		{ word: "something roughly alike something", translation: "approximativement les mêmes" },
 		{ word: "a direct train", translation: "aller simple en train " },
+		{ word: "instead of", translation: "à la place de qqc" },
+		{ word: "either / neither", translation: "l'un ou l'autre / aucun des 2" },
 	],
 	Tony1_expression: [
 		{ word: "from (time) to (time)", translation: "de tel heure à tel heure" },
@@ -125,6 +129,10 @@ const vocabularyLists = {
 		{ word: "had + past participle", translation: "action passé et terminé" },
 		{ word: "to advise ; an advice", translation: "" },
 		{ word: "turnover (HR;company)", translation: "roulement des employés ; chiffre d'affaire" },
+		{ word: "was being + past participle", translation: "action passé pas terminé sur période ; était en train de faire à manger" },
+		{ word: "is being + past participle", translation: "future forme pasive ; sera en train d'être filmé" },
+		{ word: "must be completed |by| (...)", translation: "une date précise" },
+		{ word: "muste be completed |in| (...)", translation: "une période de temps" },
 	],
 
 	Tony1_connecteur_logique: [

@@ -49,6 +49,7 @@ const vocabularyLists = {
 		{ word: "to pick out", translation: "choisir ; sélectionner qqc" },
 		{ word: "to take off", translation: "décoller carrière ; flight" },
 		{ word: "to fit in ", translation: "s'intégre dans une équipe" },
+		{ word: "to postpone an action", translation: "reporter / remettre à plus tard une action" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -91,6 +92,7 @@ const vocabularyLists = {
 		{ word: "instead of", translation: "à la place de qqc" },
 		{ word: "either / neither", translation: "l'un ou l'autre / aucun des 2" },
 		{ word: "a hazard", translation: "un danger ; un risque" },
+		{ word: "a trade show", translation: "un salon commerciale ; professionnel" },
 	],
 	Tony1_expression: [
 		{ word: "from (time) to (time)", translation: "de tel heure à tel heure" },

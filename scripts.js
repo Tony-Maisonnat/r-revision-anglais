@@ -54,7 +54,10 @@ const vocabularyLists = {
 		{ word: "something plummet", translation: "qqc s'éfondre ; dégringole" },
 		{ word: "to level off", translation: "ne varie pas " },
 		{ word: "find in", translation: "pas une phrase verbal c'est find out" },
-		{ word: "to blame on", translation: "" },
+		{ word: "to blame on", translation: "attribuer à  : to blame something on someone" },
+		{ word: "to advertise", translation: "faire de la publicité" },
+		{ word: "to go/went down", translation: "ok mais drop down n'est pas phrasal verb" },
+		{ word: "to greet someone", translation: "saluer ; acceuillir qqn" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -142,7 +145,7 @@ const vocabularyLists = {
 		{ word: "first name ; surname", translation: "prénom et nom de famille" },
 		{ word: "the previous forecast", translation: "la prévision précédente" },
 		{ word: "the first loss", translation: "la premiere perte (économique)" },
-		
+		{ word: "a valuable insight", translation: "un aperçu précieux" },
 	],
 	
 	Tony1_regle_a_connaitre: [

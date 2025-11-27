@@ -53,6 +53,7 @@ const vocabularyLists = {
 		{ word: "to look at ", translation: "regarder ; examiner qqc" },
 		{ word: "something plummet", translation: "qqc s'éfondre ; dégringole" },
 		{ word: "to level off", translation: "ne varie pas " },
+		{ word: "find in", translation: "pas une phrase verbal c'est find out" },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -136,6 +137,9 @@ const vocabularyLists = {
 		{ word: "It's A pity / shame", translation: "c'est domage" },
 		{ word: "job share ; full-time", translation: "job partagé ; à temps pleins" },
 		{ word: "such as", translation: "comme ; tel que (comparaison)" },
+		{ word: "authorize discounts of (up to) 10 %", translation: "allant jusqu'à ; donc en dessous de 10 %" },
+		{ word: "first name ; surname", translation: "prénom et nom de famille" },
+		
 	],
 	
 	Tony1_regle_a_connaitre: [

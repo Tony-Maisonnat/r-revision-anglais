@@ -50,6 +50,9 @@ const vocabularyLists = {
 		{ word: "to take off", translation: "décoller carrière ; flight" },
 		{ word: "to fit in ", translation: "s'intégre dans une équipe" },
 		{ word: "to postpone an action", translation: "reporter / remettre à plus tard une action" },
+		{ word: "to look at ", translation: "regarder ; examiner qqc" },
+		{ word: "something plummet", translation: "qqc s'éfondre ; dégringole" },
+		{ word: "to level off", translation: "ne varie pas " },
 	],
 	Tony1_word: [
 		{ word: "a hat", translation: "une chapeau" },
@@ -93,6 +96,7 @@ const vocabularyLists = {
 		{ word: "either / neither", translation: "l'un ou l'autre / aucun des 2" },
 		{ word: "a hazard", translation: "un danger ; un risque" },
 		{ word: "a trade show", translation: "un salon commerciale ; professionnel" },
+		{ word: "something bankable", translation: "qqc de rentable" },
 	],
 	Tony1_expression: [
 		{ word: "from (time) to (time)", translation: "de tel heure à tel heure" },
@@ -130,6 +134,8 @@ const vocabularyLists = {
 		{ word: "sale droped by", translation: "vente diminue de ..." },
 		{ word: "help yourself", translation: "servez vous" },
 		{ word: "It's A pity / shame", translation: "c'est domage" },
+		{ word: "job share ; full-time", translation: "job partagé ; à temps pleins" },
+		{ word: "such as", translation: "comme ; tel que (comparaison)" },
 	],
 	
 	Tony1_regle_a_connaitre: [
@@ -144,6 +150,7 @@ const vocabularyLists = {
 		{ word: "must be completed |by| (...)", translation: "une date précise" },
 		{ word: "muste be completed |in| (...)", translation: "une période de temps" },
 		{ word: "be + ing", translation: "future déjà planifier ; ou présent continue" },
+		{ word: "have/has + past participle", translation: "présent perfect action passé pas encore finis ou à des actions présente" },
 	],
 
 	Tony1_connecteur_logique: [
